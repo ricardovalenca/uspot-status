@@ -1,31 +1,78 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Página de status do USPOT (18.5.4): testa a cada 5 minutos, fora dos servidores do USPOT.
+# Hoje aponta para a homologação; com a produção, troca-se pelos endereços dela.
+owner: ricardovalenca
+repo: uspot-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: API
+    url: https://api-hml.uspot.com.br/health
+  - name: Localização (Por perto e encontros)
+    url: https://loc-hml.uspot.com.br/health
+  - name: Tempo real
+    # Sem o pedido de websocket o Centrifugo responde 400: é o sinal de que está de pé.
+    url: https://rt-hml.uspot.com.br/connection/websocket
+    expectedStatusCodes:
+      - 400
+  - name: Página do convite
+    url: https://hml.uspot.com.br
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.uspot.com.br
+  name: USPOT
+  introTitle: "**Status do USPOT**"
+  introMessage: Se o app não estiver funcionando, veja aqui se é algo nosso. Os testes rodam a cada 5 minutos.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Problemas agora
+  allSystemsOperational: Tudo funcionando
+  incidentReport: "Ocorrência #$NUMBER →"
+  activeIncidentSummary: Aberto em $DATE, com $POSTS atualizações
+  incidentTitle: Ocorrência $NUMBER
+  incidentDetails: Detalhes da ocorrência
+  incidentFixed: Resolvido
+  incidentOngoing: Em andamento
+  incidentOpenedAt: Aberto em
+  incidentClosedAt: Fechado em
+  incidentViewOnGitHub: Ver no GitHub
+  incidentCommentSummary: Publicado em $DATE por $AUTHOR
+  incidentBack: ← Voltar para as ocorrências
+  pastIncidents: Ocorrências passadas
+  pastIncidentsResolved: Resolvido em $MINUTES minutos, com $POSTS atualizações
+  liveStatus: Agora
+  overallUptime: "Disponibilidade: $UPTIME"
+  overallUptimeTitle: Disponibilidade
+  averageResponseTime: "Tempo médio de resposta: $TIMEms"
+  averageResponseTimeTitle: Tempo de resposta
+  sevelDayResponseTime: Tempo de resposta em 7 dias
+  responseTimeMs: Tempo de resposta (ms)
+  up: No ar
+  down: Fora do ar
+  degraded: Lento
+  ms: ms
+  loading: Carregando
+  navGitHub: GitHub
+  footer: Esta página usa o [Upptime](https://upptime.js.org), de código aberto.
+  rateLimitExceededTitle: Limite de consultas atingido
+  rateLimitExceededIntro: Esta página fez consultas demais ao GitHub. Tente de novo em alguns minutos.
+  errorTitle: Algo deu errado
+  errorIntro: Não foi possível carregar o status. Tente de novo em alguns minutos.
+  errorText: ""
+  errorHomeButton: Voltar ao início
+  pastScheduledMaintenance: Manutenções passadas
+  scheduledMaintenance: Manutenção programada
+  scheduledMaintenanceSummaryStarted: Começou em $DATE, por $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Começa em $DATE, por $DURATION minutos
+  startedAt: Começou em
+  startsAt: Começa em
+  duration: Duração
+  durationMin: $DURATION minutos
+  incidentCompleted: Concluída
+  incidentScheduled: Programada
+  duration24H: 24 horas
+  duration7D: 7 dias
+  duration30D: 30 dias
+  duration1Y: 1 ano
+  durationAll: Tudo
