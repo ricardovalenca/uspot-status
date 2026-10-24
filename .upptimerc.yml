@@ -19,6 +19,10 @@ sites:
 status-website:
   cname: status.uspot.com.br
   name: USPOT
+  # Ícone provisório do app (apps/mobile/assets/icon.png). Os arquivos de assets/ são
+  # publicados na raiz do site; logo-192.png e manifest.json substituem os do Upptime.
+  logoUrl: /logo-192.png
+  favicon: /favicon.png
   introTitle: "**Status do USPOT**"
   introMessage: Se o app não estiver funcionando, veja aqui se é algo nosso. Os testes rodam a cada 5 minutos.
   navbar:
