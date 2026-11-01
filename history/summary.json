@@ -4,20 +4,20 @@
     "url": "https://api-hml.uspot.com.br/health",
     "icon": "https://icons.duckduckgo.com/ip3/api-hml.uspot.com.br.ico",
     "slug": "api",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 4354,
-    "timeDay": 723,
-    "timeWeek": 5099,
-    "timeMonth": 4354,
-    "timeYear": 4354,
+    "status": "up",
+    "uptime": "99.94%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
+    "time": 4067,
+    "timeDay": 690,
+    "timeWeek": 4693,
+    "timeMonth": 4067,
+    "timeYear": 4067,
     "dailyMinutesDown": {
       "2026-10-29": 2,
-      "2026-11-01": 1
+      "2026-11-01": 5
     }
   },
   {
@@ -25,20 +25,20 @@
     "url": "https://loc-hml.uspot.com.br/health",
     "icon": "https://icons.duckduckgo.com/ip3/loc-hml.uspot.com.br.ico",
     "slug": "localizacao-por-perto-e-encontros",
-    "status": "down",
-    "uptime": "99.39%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.39%",
-    "uptimeYear": "99.39%",
-    "time": 541,
-    "timeDay": 556,
-    "timeWeek": 565,
-    "timeMonth": 541,
-    "timeYear": 541,
+    "status": "up",
+    "uptime": "99.35%",
+    "uptimeDay": "99.67%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.35%",
+    "uptimeYear": "99.35%",
+    "time": 532,
+    "timeDay": 512,
+    "timeWeek": 549,
+    "timeMonth": 532,
+    "timeYear": 532,
     "dailyMinutesDown": {
       "2026-10-24": 73,
-      "2026-11-01": 0
+      "2026-11-01": 5
     }
   },
   {
@@ -64,20 +64,20 @@
     "url": "https://hml.uspot.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/hml.uspot.com.br.ico",
     "slug": "pagina-do-convite",
-    "status": "down",
-    "uptime": "99.96%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.96%",
-    "time": 2324,
-    "timeDay": 783,
-    "timeWeek": 2647,
-    "timeMonth": 2324,
-    "timeYear": 2324,
+    "status": "up",
+    "uptime": "99.92%",
+    "uptimeDay": "99.69%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.92%",
+    "time": 2188,
+    "timeDay": 708,
+    "timeWeek": 2457,
+    "timeMonth": 2188,
+    "timeYear": 2188,
     "dailyMinutesDown": {
       "2026-10-29": 5,
-      "2026-11-01": 0
+      "2026-11-01": 4
     }
   }
 ]
