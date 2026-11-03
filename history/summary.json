@@ -4,20 +4,21 @@
     "url": "https://api-hml.uspot.com.br/health",
     "icon": "https://icons.duckduckgo.com/ip3/api-hml.uspot.com.br.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.88%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.87%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 4564,
-    "timeDay": 23036,
-    "timeWeek": 5768,
-    "timeMonth": 4564,
-    "timeYear": 4564,
+    "time": 4341,
+    "timeDay": 11790,
+    "timeWeek": 5394,
+    "timeMonth": 4341,
+    "timeYear": 4341,
     "dailyMinutesDown": {
       "2026-10-29": 2,
-      "2026-11-01": 10
+      "2026-11-01": 10,
+      "2026-11-03": 1
     }
   },
   {
@@ -25,20 +26,21 @@
     "url": "https://loc-hml.uspot.com.br/health",
     "icon": "https://icons.duckduckgo.com/ip3/loc-hml.uspot.com.br.ico",
     "slug": "localizacao-por-perto-e-encontros",
-    "status": "up",
-    "uptime": "99.41%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.41%",
-    "uptimeYear": "99.41%",
-    "time": 527,
-    "timeDay": 405,
-    "timeWeek": 548,
-    "timeMonth": 527,
-    "timeYear": 527,
+    "status": "down",
+    "uptime": "99.43%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.43%",
+    "uptimeYear": "99.43%",
+    "time": 519,
+    "timeDay": 401,
+    "timeWeek": 535,
+    "timeMonth": 519,
+    "timeYear": 519,
     "dailyMinutesDown": {
       "2026-10-24": 73,
-      "2026-11-01": 10
+      "2026-11-01": 10,
+      "2026-11-03": 0
     }
   },
   {
@@ -64,20 +66,21 @@
     "url": "https://hml.uspot.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/hml.uspot.com.br.ico",
     "slug": "pagina-do-convite",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "99.90%",
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.93%",
-    "time": 3944,
-    "timeDay": 30012,
-    "timeWeek": 5131,
-    "timeMonth": 3944,
-    "timeYear": 3944,
+    "time": 3724,
+    "timeDay": 15211,
+    "timeWeek": 4737,
+    "timeMonth": 3724,
+    "timeYear": 3724,
     "dailyMinutesDown": {
       "2026-10-29": 5,
-      "2026-11-01": 4
+      "2026-11-01": 4,
+      "2026-11-03": 0
     }
   }
 ]
