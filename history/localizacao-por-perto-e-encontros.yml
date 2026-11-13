@@ -1,7 +1,7 @@
 url: https://loc-hml.uspot.com.br/health
-status: up
-code: 200
-responseTime: 643
-lastUpdated: 2026-11-13T02:59:03.301Z
+status: down
+code: 502
+responseTime: 360
+lastUpdated: 2026-11-13T13:25:49.747Z
 startTime: 2026-10-24T12:54:17.621Z
 generator: Upptime <https://github.com/upptime/upptime>
