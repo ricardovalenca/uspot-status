@@ -1,7 +1,7 @@
 url: https://api-hml.uspot.com.br/health
-status: up
-code: 200
-responseTime: 928
-lastUpdated: 2026-11-17T04:49:52.808Z
+status: down
+code: 502
+responseTime: 741
+lastUpdated: 2026-11-18T00:55:33.729Z
 startTime: 2026-10-24T12:54:16.662Z
 generator: Upptime <https://github.com/upptime/upptime>
