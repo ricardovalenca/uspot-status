@@ -4,17 +4,17 @@
     "url": "https://api-hml.uspot.com.br/health",
     "icon": "https://icons.duckduckgo.com/ip3/api-hml.uspot.com.br.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.85%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.95%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.94%",
     "uptimeMonth": "99.85%",
     "uptimeYear": "99.85%",
-    "time": 1826,
-    "timeDay": 769,
-    "timeWeek": 940,
-    "timeMonth": 1826,
-    "timeYear": 1826,
+    "time": 1808,
+    "timeDay": 760,
+    "timeWeek": 921,
+    "timeMonth": 1827,
+    "timeYear": 1808,
     "dailyMinutesDown": {
       "2026-10-29": 2,
       "2026-11-01": 10,
@@ -23,7 +23,8 @@
       "2026-11-12": 10,
       "2026-11-13": 10,
       "2026-11-15": 5,
-      "2026-11-18": 5
+      "2026-11-18": 5,
+      "2026-11-24": 1
     }
   },
   {
@@ -31,17 +32,17 @@
     "url": "https://loc-hml.uspot.com.br/health",
     "icon": "https://icons.duckduckgo.com/ip3/loc-hml.uspot.com.br.ico",
     "slug": "localizacao-por-perto-e-encontros",
-    "status": "up",
+    "status": "down",
     "uptime": "99.71%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.71%",
+    "uptimeMonth": "99.87%",
     "uptimeYear": "99.71%",
-    "time": 515,
-    "timeDay": 601,
-    "timeWeek": 547,
-    "timeMonth": 515,
-    "timeYear": 515,
+    "time": 516,
+    "timeDay": 593,
+    "timeWeek": 550,
+    "timeMonth": 516,
+    "timeYear": 516,
     "dailyMinutesDown": {
       "2026-10-24": 73,
       "2026-11-01": 10,
@@ -50,7 +51,8 @@
       "2026-11-12": 10,
       "2026-11-13": 9,
       "2026-11-15": 5,
-      "2026-11-18": 5
+      "2026-11-18": 5,
+      "2026-11-24": 0
     }
   },
   {
@@ -76,17 +78,17 @@
     "url": "https://hml.uspot.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/hml.uspot.com.br.ico",
     "slug": "pagina-do-convite",
-    "status": "up",
+    "status": "down",
     "uptime": "99.89%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.96%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.95%",
     "uptimeMonth": "99.89%",
     "uptimeYear": "99.89%",
-    "time": 1616,
-    "timeDay": 782,
-    "timeWeek": 730,
-    "timeMonth": 1616,
-    "timeYear": 1616,
+    "time": 1599,
+    "timeDay": 747,
+    "timeWeek": 728,
+    "timeMonth": 1613,
+    "timeYear": 1599,
     "dailyMinutesDown": {
       "2026-10-29": 5,
       "2026-11-01": 4,
@@ -95,7 +97,8 @@
       "2026-11-12": 4,
       "2026-11-13": 9,
       "2026-11-15": 5,
-      "2026-11-18": 5
+      "2026-11-18": 5,
+      "2026-11-24": 0
     }
   }
 ]
